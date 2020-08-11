@@ -13,7 +13,7 @@ public class Exercise_Leb2_3 {
         System.out.print("Enter radius of circle :");
         double r = scanner.nextDouble();
 
-        double v = (4/3) + PI * r * r * r;
+        double v = (4/3) * PI * r * r * r;
 
         System.out.println("The capacity of circle is :"+v);
 
