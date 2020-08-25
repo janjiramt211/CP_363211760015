@@ -7,9 +7,8 @@ public class Example_BasicMethod {
         System.out.println("Hello B. " +num);
 
     }//B
-
-    public static void int C(int x,int y){
-        //ststment
+    public static int C(int x,int y){
+        //statement
         System.out.println("Hello C.");
         int sum = x + y;
         return sum;
@@ -22,7 +21,7 @@ public class Example_BasicMethod {
         A();
         A();
         B(100);
-    int sum = C(100,200)
+    int sum = C(100,200);
     System.out.println(sum);
     System.out.println(C(500,600));
     }//main
