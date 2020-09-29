@@ -11,7 +11,39 @@ public class BasicArray2D {
         number = inputData(number);
         //display data to array
         displayData(number);
+        //find total value in
+        findTotalValue(number);
+        //find max value
+        findMaxValue(number);
+        //find min value
 
+    }
+
+    private static void findMaxValue(int[][] number) {
+        int t = 0;
+        for (int i = 0; i < number.length; i++) {   //row
+            for (int j = 0; j < number[i].length; j++) {   //column
+
+                t += number[i][j];  // t = t+number
+
+            }
+
+        }
+        System.out.println("Total value in array: "+t);
+
+    }
+
+    private static void findTotalValue(int[][] number) {
+        int t = 0;
+        for (int i = 0; i < number.length; i++) {   //row
+            for (int j = 0; j < number[i].length; j++) {   //column
+
+                t += number[i][j];  // t = t+number
+
+            }
+
+        }
+        System.out.println("Total value in array: "+t);
     }
 
     private static void displayData(int[][] number) {
